@@ -23,6 +23,7 @@ export default CategoryGridTile;
 const styles = StyleSheet.create({
     gridItem: {
         flex: 1,
+        marginTop: 30,
         margin: 16,
         height: 150,
         borderRadius: 8,
@@ -36,6 +37,7 @@ const styles = StyleSheet.create({
     },
     button: {
         flex: 1,
+
     },
     buttonPressed: {
         opacity: 0.5,
